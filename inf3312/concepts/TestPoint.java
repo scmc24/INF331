@@ -9,7 +9,7 @@ public class TestPoint{
 
         points[0] = new Point();
         System.out.println("Point 1  : \n");
-        points[0].afficherPoint()
+        points[0].afficherPoint();
         points[0].deplacer(1,1);
         points[0].afficherPoint();
         System.out.println("\n");
