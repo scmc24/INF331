@@ -21,6 +21,6 @@ public class TestDivision{
         System.out.println(x+"/"+y+" = "+ div.diviser(x,y) );
         System.out.println("\n\n");
         System.out.println("Division par methode de classe : \n");
-        System.out.println(x+"/"+y+" = "+ Division.diviser(x,y) );
+        System.out.println(x+"/"+y+" = "+ Division.diviserS(x,y) );
     }
 }
