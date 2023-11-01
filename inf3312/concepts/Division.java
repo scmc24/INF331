@@ -9,7 +9,7 @@ public class Division{
 
     }
 
-    public static void Diviser(double x , double y){
+    public static double Diviser(double x , double y){
         
         return x/y;
 
