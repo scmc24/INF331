@@ -10,9 +10,11 @@ public class TestCompte{
         comptes[0] = new Compte("A1234","Sokoudjou",10000);
         comptes[1] = new CompteEpargne("A1235","Scm24",15000);
         comptes[2] = new CompteSecurise("A1236","John",18000);
-
+         System.out.println("=======================================================");
         for(Compte compte : comptes){
             compte.Retirer(11000);
+            System.out.println("Solde : "+compte.getSolde());
+            System.out.println("=======================================================");
         }
     }
 }
