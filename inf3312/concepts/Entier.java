@@ -9,7 +9,7 @@ public class Entier extends Affichable{
      this.i = i;
     }
 
-    @Override
+   
     public void affiche(){
         System.out.println("Je suis un entier de valeur "+i);
     }
