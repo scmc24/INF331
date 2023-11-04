@@ -13,6 +13,6 @@ public class TestAffichable{
         for(Affichable a : objets){
             a.affiche();
         }
-       
+    
     }
 }

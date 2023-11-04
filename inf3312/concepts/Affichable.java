@@ -1,7 +1,7 @@
 
 package inf3312.concepts;
 
-public abstract class Affichable{
+public interface Affichable{
 
-    public abstract void affiche();
+    public void affiche();
 }

@@ -1,7 +1,7 @@
 
 package inf3312.concepts;
 
-public class Entier extends Affichable{
+public class Entier implements Affichable{
 
     private int i;
 
@@ -9,7 +9,7 @@ public class Entier extends Affichable{
      this.i = i;
     }
 
-   
+   @Override
     public void affiche(){
         System.out.println("Je suis un entier de valeur "+i);
     }
