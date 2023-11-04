@@ -9,13 +9,20 @@ public class Pointcol extends Point{
      super(x, y);
      this.couleur = couleur;
     }
-    
+
     public void colorer(byte couleur){
      this.couleur = couleur;
     }
+    
+    @Override
+    public void afficher(){
 
-    public void afficheCol(){
-        super.afficherPoint();
-        System.out.println("couleur : ",couleur);
+        super.afficher();
+        System.out.print("couleur : "+couleur);
+    }
+
+    @Override
+    public void identifie(){
+        System.out.println("je suis un point colorer");
     }
 }

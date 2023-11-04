@@ -26,8 +26,14 @@ public class Point{
         this.y+=dy;
     }
 
-    public void afficherPoint(){
+    public void afficher(){
         System.out.println("Coordonnee Point : "+ "("+x+","+y+")");
     }
+
+    public void identifie(){
+
+        System.out.println("je suis un point");
+        }
+    
 
 }

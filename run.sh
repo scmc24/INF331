@@ -7,5 +7,6 @@ echo "Running Application 1 & 2 \n\n"
 echo "=======================================================\n\n"
 
 javac inf3312/concepts/Point.java && 
+javac inf3312/concepts/Pointcol.java && 
 javac inf3312/concepts/TestPoint.java && java inf3312/concepts/TestPoint
 
