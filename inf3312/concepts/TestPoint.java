@@ -6,7 +6,7 @@ public class TestPoint{
     public static void main(String[] args){
 
         Point[] points = new Point[3];
-
+        PointCol pointC = new PointCol(1,3,2);
         points[0] = new Point();
         System.out.println("Point 1  : \n");
         points[0].afficherPoint();
@@ -24,7 +24,7 @@ public class TestPoint{
         points[2].afficherPoint();
         points[2].deplacer(4,2.5);
         points[2].afficherPoint();
-
+        pointC.afficheCol();
 
 
     }
